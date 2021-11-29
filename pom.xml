@@ -26,6 +26,17 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.25</version>
+		</dependency>
+		<dependency>
+<!--			USED TO SOLVE BUG: https://stackoverflow.com/questions/8891154/unable-to-instantiate-default-tuplizer-org-hibernate-tuple-entity-pojoentitytup/53030353-->
+			<groupId>javassist</groupId>
+			<artifactId>javassist</artifactId>
+			<version>3.12.1.GA</version>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-cache</artifactId>
 		</dependency>
